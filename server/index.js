@@ -14,7 +14,7 @@ app.post('/seed', seed)
 
 // USER
 app.get('/user', getUserInfo)
-// app.put('/user', updateUserInfo)
+app.put('/user', updateUserInfo)
 
 // APPOINTMENTS
 // app.get('/appt', getUserAppt)
